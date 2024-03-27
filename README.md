@@ -1,4 +1,4 @@
-# TerraformAzureDemonstration
+# How To use this project as your starter template.
 This repository showcases the power of Terraform through sample Azure deployments.
 
 To use this project for your learning, follow the below steps:
