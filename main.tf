@@ -25,12 +25,14 @@ terraform {
   required_version = ">=1.1.0"
 
   # Setting up a remote Terraform Cloud backend.
+/*
   cloud {
     organization = "MyTerraformOrgViswa"
     workspaces {
       name = "learn-terraform-azure"
     }
   }
+*/
 }
 
 // Provider Block. You can configure any provider specific details here. Never give your provider authentication configuration here. Always go for environmental variables or other prescribed secure ways.
