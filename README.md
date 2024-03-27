@@ -1,5 +1,6 @@
 # How To use this project as your starter template.
 This repository showcases the power of Terraform through sample Azure deployments.
+For more details on IaC, you can go through this medium article: https://medium.com/@cvviswa7/the-power-of-infrastructure-as-code-iac-ab46d0943544
 
 To use this project for your learning, follow the below steps:
 1. Clone the project in your local repository.
