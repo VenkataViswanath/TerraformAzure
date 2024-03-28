@@ -22,29 +22,29 @@ terraform apply -out=myplan.tfplan
 
 # Learning Outcomes
 ## Blocks: 
-terraform block
-provider block
-resource block
-variables block
-locals block
-data block
-module block
-output block
-dynamic block
+1. terraform block
+2. provider block
+3. resource block
+4. variables block
+5. locals block
+6. data block
+7. module block
+8. output block
+9. dynamic block
 
 ## Others:
-terraform comments
-terraform state - local backend and remote backend
-handling sensitive data in terraform
+1. terraform comments
+2. terraform state - local backend and remote backend
+3. handling sensitive data in terraform
 
 # Handy Terraform Commands
-terraform init: Initializes a Terraform working directory by downloading and installing any necessary plugins.
-terraform plan: Generates an execution plan showing what actions Terraform will take to change the infrastructure as defined in your configuration files.
-terraform apply: Applies the changes required to reach the desired state of the configuration, as defined by your Terraform files.
-terraform destroy: Destroys all the resources defined in your Terraform configuration, effectively removing the infrastructure.
-terraform validate: Checks the syntax and validity of your Terraform configuration files.
-terraform refresh: Updates the state file against real-world resources. It does not modify resources, but it does update the state file with the latest status.
-terraform state: Allows you to perform operations on Terraform state such as listing resources, moving resources to a different state file, etc.
-terraform output: Prints the outputs defined in your Terraform configuration, such as IP addresses, resource IDs, etc.
-terraform graph: Generates a visual representation of the dependency graph of your Terraform resources.
-terraform fmt: Rewrites Terraform configuration files in a canonical format and style.
+1. terraform init: Initializes a Terraform working directory by downloading and installing any necessary plugins.
+2. terraform plan: Generates an execution plan showing what actions Terraform will take to change the infrastructure as defined in your configuration files.
+3. terraform apply: Applies the changes required to reach the desired state of the configuration, as defined by your Terraform files.
+4. terraform destroy: Destroys all the resources defined in your Terraform configuration, effectively removing the infrastructure.
+5. terraform validate: Checks the syntax and validity of your Terraform configuration files.
+6. terraform refresh: Updates the state file against real-world resources. It does not modify resources, but it does update the state file with the latest status.
+7. terraform state: Allows you to perform operations on Terraform state such as listing resources, moving resources to a different state file, etc.
+8. terraform output: Prints the outputs defined in your Terraform configuration, such as IP addresses, resource IDs, etc.
+9. terraform graph: Generates a visual representation of the dependency graph of your Terraform resources.
+10. terraform fmt: Rewrites Terraform configuration files in a canonical format and style.
