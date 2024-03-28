@@ -36,6 +36,8 @@ terraform apply -out=myplan.tfplan
 1. terraform comments
 2. terraform state - local backend and remote backend
 3. handling sensitive data in terraform
+4. Variable Validation
+5. for_each statement
 
 # Handy Terraform Commands
 1. terraform init: Initializes a Terraform working directory by downloading and installing any necessary plugins.
