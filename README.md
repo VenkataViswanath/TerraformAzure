@@ -19,3 +19,32 @@ terraform apply -out=myplan.tfplan
 10. Run "terraform destory" to destroy all the resources. Note that terraform only manages the resources that are defined through terraform configuration. The resources created outside of terraform are not managed by terraform and hence are not deleted by the destroy command.
 
 11. I have also created a separate folder named variable_validation. This folder has some details on how you can use different variables and how you can enforce some validation conditions on them. Feel free to play around with this. You just need to change your current working directory to variable_validation, and then run the "terraform apply" command, and pass different inputs to variables to see the outputs based on the validation conditions.
+
+# Learning Outcomes
+## Blocks: 
+terraform block
+provider block
+resource block
+variables block
+locals block
+data block
+module block
+output block
+dynamic block
+
+## Others:
+terraform comments
+terraform state - local backend and remote backend
+handling sensitive data in terraform
+
+# Handy Terraform Commands
+terraform init: Initializes a Terraform working directory by downloading and installing any necessary plugins.
+terraform plan: Generates an execution plan showing what actions Terraform will take to change the infrastructure as defined in your configuration files.
+terraform apply: Applies the changes required to reach the desired state of the configuration, as defined by your Terraform files.
+terraform destroy: Destroys all the resources defined in your Terraform configuration, effectively removing the infrastructure.
+terraform validate: Checks the syntax and validity of your Terraform configuration files.
+terraform refresh: Updates the state file against real-world resources. It does not modify resources, but it does update the state file with the latest status.
+terraform state: Allows you to perform operations on Terraform state such as listing resources, moving resources to a different state file, etc.
+terraform output: Prints the outputs defined in your Terraform configuration, such as IP addresses, resource IDs, etc.
+terraform graph: Generates a visual representation of the dependency graph of your Terraform resources.
+terraform fmt: Rewrites Terraform configuration files in a canonical format and style.
