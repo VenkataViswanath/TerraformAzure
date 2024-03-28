@@ -48,3 +48,5 @@ terraform apply -out=myplan.tfplan
 8. terraform output: Prints the outputs defined in your Terraform configuration, such as IP addresses, resource IDs, etc.
 9. terraform graph: Generates a visual representation of the dependency graph of your Terraform resources.
 10. terraform fmt: Rewrites Terraform configuration files in a canonical format and style.
+
+### Terraform Tutorials Documentation: https://developer.hashicorp.com/terraform/tutorials
